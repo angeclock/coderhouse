@@ -1,0 +1,21 @@
+
+selector {
+	propiedad:valor;
+	propiedd:valor;
+}
+
+.miPrimerDiv {
+	color:red;
+	font-size: 15px;
+}
+
+#yoSoyTuID {
+	color: green;
+}
+
+.destacado {
+	border-width: 5px;
+	border-color: black;
+	height: 30px;
+	border-style: solid;
+}

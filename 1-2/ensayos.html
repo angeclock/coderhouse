@@ -3,6 +3,7 @@
   <head>
     <title>A web page</title>
   </head>
+  <meta charset="UTF-8">
   <body>
     <header>
       <img src="http://placehold.it/200x100" />
@@ -18,7 +19,21 @@
     </section>
     <section>
       <!-- Insert search -->
-      <button>Enter your domain name and hit enter</button>
+        <form action="enviar_mail">
+            <fieldset>
+              <legend>Información personal</legend>
+              Buscar:<br>
+              <input type="text" name="buscar" >
+                <br>
+              Sexo: <br>
+              <input type="radio" name="gender" value="male" checked>Male<br>
+              <input type="radio" name="gender" value="female" checked>Female<br>
+              <input type="radio" name="gender" value="other" checked>Other<br>
+              <br>
+              Enviar:
+              <input type="submit" value="submit">
+            </fieldset>  
+        </form>
     </section>
     <section>
         <article>
@@ -119,4 +134,4 @@
       </nav>
   </footer>
   </body>
-</html>
+</html> 
