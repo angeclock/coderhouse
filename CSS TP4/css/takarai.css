@@ -1,0 +1,103 @@
+
+body {
+	margin-right: 30px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width:90%;
+	margin:auto;
+	min-width:600px;
+	max-width:2000px;
+}
+
+.navi {
+	display: inline-block;
+	padding-right: 0px;
+}
+
+.navi li {
+	display: inline;
+	float: left;
+	padding: 20px;
+	background-color: white;
+	color: gray;
+}
+
+.navi li a:hover {
+	background-color: white;
+	color: black;
+	margin-top: -2px;
+	padding-bottom: 12px;
+}
+
+.imbig{
+	width: 100%;
+
+}
+
+.tipo1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 400;
+	color: black;
+	
+}
+
+.tipo2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 400; 
+	color: gray;
+	
+}
+
+
+.logo {
+	width:200px;
+	height:77px;
+}
+.picsb {
+	width: 50px;
+	height: 50px;
+}
+.buttonblu {
+	width: 100px;
+	height: 38px;
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+    border-style: hidden;
+}
+
+.section1 {
+
+	position: relative;
+}
+
+.footer {
+	background-color: #098590;
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.footer2 {
+	background-color: black;
+	width: 100%;
+	height: 100px;
+	color: white;
+	
+}
+
+.navi2 {
+	display: inline-block;
+	background-size: 100%;
+	width: 100%;
+
+}
+
+.navi2 li {
+	float: left;
+	padding: 10px;
+	background: transparent;
+	color: white; 
+}
