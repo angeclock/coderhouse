@@ -45,6 +45,7 @@ div {
 	animation-delay: 1s;
 	animation-iteration-count:infinite;
 	animation-direction: reverse;
+	animation-timing-function: linear;
 }
 
 @keyframes example {
@@ -52,4 +53,36 @@ div {
 	25% {background-color: black; transfor: translate (10px, 0px);}
 	100% {background-color: blue; transform: translate (-10px, 0px);}
 }
+
+
+body {
+		font-size: 12pt;
+
+}
+.publicidad {
+	width: 25%;
+	height:100px;
+}
+
+button {
+	height: 35px;
+	width: 100px;
+
+}
+
+
+@media screen and (max-width: 1024px) (orientation: landscape) {
+	body {
+		font-size: 24pt;
+	}
+	.publicidad {
+		width: 100%;
+		height: 35px;
+	}
+}
+
+screen
+all
+print
+speech
 
